@@ -1,0 +1,448 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Inferior</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+	<link rel="stylesheet" href="assets/styles/css/style.css ">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Wruczek/Bootstrap-Cookie-Alert@gh-pages/cookiealert.css">
+</head>
+
+<body class="p-3 mb-2">
+	<section>
+		<!--menu sm-->
+		<div class="d-lg-none">
+			<nav class="navbar navbar-expand-lg bg-secondary ">
+				<div class="container-fluid">
+					<button class="navbar-toggler text-center" type="button" data-bs-toggle="collapse"
+						data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+						aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+
+					<div class="collapse navbar-collapse" id="navbarNavDropdown">
+						<ul class="navbar-nav">
+							<li class="nav-item">
+								<a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+							</li>
+
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+									aria-expanded="false">
+									Campeones
+								</a>
+								<ul class="dropdown-menu">
+
+
+									<li> <a class="dropdown-item"> Builds </a> </li>
+									<a class="dropdown-item">
+										<li>Emparejamientos
+									</a>
+							</li>
+							<a class="dropdown-item">
+								<li>Runas
+							</a> </li>
+							<a class="dropdown-item">
+								<li>Orden de habilidades
+							</a> </li>
+							<a class="dropdown-item">
+								<li>Hechizos
+							</a> </li>
+							<a class="dropdown-item">
+								<li>Rutas de la jungla
+							</a> </li>
+						</ul>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+								aria-expanded="false">
+								Roles principales
+							</a>
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item" href="top.html">Línea superior</a></li>
+								<li><a class="dropdown-item" href="jungla.html">Jungla</a></li>
+								<li><a class="dropdown-item" href="mId.html">Línea central</a></li>
+								<li><a class="dropdown-item" href="soporte.html">Soporte</a></li>
+								<li><a class="dropdown-item" href="adc.html">Línea inferior</a></li>
+							</ul>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+								aria-expanded="false">
+								Estadisticas
+							</a>
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item">Mejores jugadores</a></li>
+								<li><a class="dropdown-item">Rango</a></li>
+								<li><a class="dropdown-item">Records</a></li>
+								<li><a class="dropdown-item">Puntos de maestria</a></li>
+								<li><a class="dropdown-item"> Desafios</a></li>
+							</ul>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+								aria-expanded="false">
+								Mejores jugadores
+							</a>
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item">Faker</a></li>
+								<li><a class="dropdown-item">CIGoldust</a></li>
+								<li><a class="dropdown-item">Josedeodo</a></li>
+								<li><a class="dropdown-item">Zeuz</a></li>
+								<li><a class="dropdown-item"> Caps</a></li>
+							</ul>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+								aria-expanded="false">
+								Mejores equipos
+							</a>
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item">T1</a></li>
+								<li><a class="dropdown-item">G2 E-sports</a></li>
+								<li><a class="dropdown-item">Fnatic</a></li>
+								<li><a class="dropdown-item">Isurus Gaming</a></li>
+								<li><a class="dropdown-item"> Rainbow 7</a></li>
+							</ul>
+						</li>
+
+						</ul>
+					</div>
+				</div>
+
+			</nav>
+	</section>
+	<div class="container-fluid">
+		<div class="row flex-nowrap">
+			<div class="col-auto col-md-3 col-xl-3 px-sm-2 px-0 bg-dark d-none d-lg-block">
+				<div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
+					<a href="/"
+						class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+						<span class="fs-5 d-none d-sm-inline">
+							<div class="fuente3">
+								<a href="index.html"><img
+										src="https://www.creativefabrica.com/wp-content/uploads/2019/05/Home-icon-by-ahlangraphic.jpg"
+										width="50" height="35" class="rounded float-start" alt="20"></a>
+								<h4>MENU LOL </h4>
+							</div>
+						</span>
+					</a>
+					<table class="table">
+						<td>
+							<div class="accordion" id="accordionMenuLoL">
+								<div class="row">
+									<div class="accordion-item">
+										<h2 class="accordion-header" id="headingChamps">
+											<button class="accordion-button" type="button" data-bs-toggle="collapse"
+												data-bs-target="#collapseChamps" aria-expanded="true"
+												aria-controls="collapseChamps">
+												<h7>Campeones</h7>
+											</button>
+										</h2>
+										<div id="collapseChamps" class="accordion-collapse collapse"
+											aria-labelledby="headingChamps" data-bs-parent="#accordionMenuLoL">
+											<div class="accordion-body">
+												<ul>
+													<li>Estadisticas</li>
+													<li>Builds</li>
+													<li>Emparejamientos</li>
+													<li>Runas</li>
+													<li>Orden de habilidades</li>
+													<li>Hechizos</li>
+													<li>Rutas de la jungla</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="row pt-2">
+									<div class="accordion-item">
+										<h2 class="accordion-header" id="headingStats">
+											<button class="accordion-button" type="button" data-bs-toggle="collapse"
+												data-bs-target="#collapseStats" aria-expanded="true"
+												aria-controls="collapseStats">
+												<h7>Estadisticas</h7>
+											</button>
+										</h2>
+										<div id="collapseStats" class="accordion-collapse collapse"
+											aria-labelledby="headingStats" data-bs-parent="#accordionMenuLoL">
+											<div class="accordion-body">
+												<ul>
+													<li>Mejores jugadores</li>
+													<li>Rango</li>
+													<li>Records</li>
+													<li>Puntos de maestria</li>
+													<li>Desafios</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="row pt-2">
+									<div class="accordion-item">
+										<h2 class="accordion-header" id="headingRoles">
+											<button class="accordion-button" type="button" data-bs-toggle="collapse"
+												data-bs-target="#collapseRoles" aria-expanded="true"
+												aria-controls="collapseStats">
+												<h7>Roles principales</h7>
+											</button>
+										</h2>
+										<div id="collapseRoles" class="accordion-collapse collapse"
+											aria-labelledby="headingRoles" data-bs-parent="#accordionMenuLoL">
+											<div class="accordion-body">
+												<ul>
+													<li><a href="top.html"> Superior</a></li>
+													<li><a href="jungla.html"> Jungla</a></li>
+													<li> <a href="mid.html"> Central</a></li>
+													<li><a href="adc.html"> Inferior</a></li>
+													<li><a href="soporte.html">Soporte</a> </li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="row pt-2">
+									<div class="accordion-item">
+										<h2 class="accordion-header" id="headingPlayers">
+											<button class="accordion-button" type="button" data-bs-toggle="collapse"
+												data-bs-target="#collapsePlayers" aria-expanded="true"
+												aria-controls="collapsePlayers">
+												<h7>Mejores jugadores</h7>
+											</button>
+										</h2>
+										<div id="collapsePlayers" class="accordion-collapse collapse"
+											aria-labelledby="headingPlayers" data-bs-parent="#accordionMenuLoL">
+											<div class="accordion-body">
+												<ul>
+													<li>Faker</li>
+													<li>Zeus</li>
+													<li>Goldust</li>
+													<li>Josedeodo</li>
+													<li>Xpeke</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="row pt-2">
+									<div class="accordion-item">
+										<h2 class="accordion-header" id="headingRoles">
+											<button class="accordion-button" type="button" data-bs-toggle="collapse"
+												data-bs-target="#collapseTeams" aria-expanded="true"
+												aria-controls="collapseTeams">
+												<h7>Mejores equipos</h7>
+											</button>
+										</h2>
+										<div id="collapseTeams" class="accordion-collapse collapse"
+											aria-labelledby="headingTeams" data-bs-parent="#accordionMenuLoL">
+											<div class="accordion-body">
+												<ul>
+													<li>T1</li>
+													<li>Fnatic</li>
+													<li>G2 sports</li>
+													<li>Rainbow 7</li>
+													<li>Team liquid</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+
+							</div>
+						</td>
+					</table>
+				</div>
+			</div>
+
+			<div class="col py-3">
+				<!--A partir de aquí va el contenido de la página-->
+
+				<div class="container-fluid">
+					<div class="row ">
+						<div class="col-12 col-md-3 ">
+							<div class="mt-3">
+								<div class="text-center">
+									<img src="https://ih1.redbubble.net/image.2354182272.2636/st,small,507x507-pad,600x600,f8f8f8.jpg"
+										width="200" height="200" class="img-fluid" class="rounded mx-auto d-block"
+										alt="20">
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-md-9">
+							<h1>
+								<div class="text-start"> <a name="Inicio">Línea inferior: Mejores campeones para la
+										temporada.</a>
+								</div>
+
+
+							</h1>
+							<div class="text-left">
+								<h6>No es fácil jugar ADC con tantos peligros esperándonos para hacernos desaparecer en
+									un combo, por ello, te traemos los mejores campeones tiradores de League of Legends
+									para que arrases en cada una de tus partidas. Además, te contamos las mejores build
+									y runas para que no te pierdas nada.A pesar de los débiles que son los ADC en League
+									of Legends si sabes posicionarte bien y conseguir un buen farm puedes llegar a
+									cambiar por completo las peleas de equipo. Con tantos campeones disponibles sabemos
+									que puede ser un poco abrumador, así que os lo hemos simplificado para que vayáis a
+									tiro hecho en el parche 13.7.
+								</h6>
+							</div>
+							<ul>
+								<h6>
+									<li><a href="#Lucian"> Lucian</a></li>
+									<li><a href="#Kalista"> Kalista</a></li>
+									<li><a href="#Vayne"> Vayne</a></li>
+								</h6>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				</section>
+				<br><br>
+				<section>
+					<div class="container-fluid">
+						<div class="fuente3">
+							<h3><a name="Lucian">EL DESTELLO PURIFICADOR. LUCIAN</a></h3>
+						</div>
+						<div class="row ">
+							<div class="col-md-5">
+								<img src="assets/Images/Lucian.jpg" width="500" height="300" class="img-fluid"
+									class="rounded float-start" alt="20">
+							</div>
+							<div class="col-md-7">
+
+								<h6>Lucian, antiguo Centinela de la Luz, es un sombrío cazador de espíritus eternos a
+									los que persigue implacablemente y los aniquila con sus pistolas reliquias. Después
+									de que el macabro espectro Thresh asesinara a su mujer, Lucian se dejó llevar por el
+									ansia de venganza. A pesar de que ella ha vuelto a la vida, él sigue aún cegado por
+									la rabia. Implacable y decidido, Lucian no se detendrá ante ningún obstáculo a la
+									hora de proteger a los vivos de los horrores de la Niebla Negra. </h6>
+
+								<div class="fuente2"> Dificultad:</div>
+								<h6> Moderada</h6>
+
+								<div class="fuente2">Rol:</div>
+								<h6>Tirador </h6>
+
+								<div class="fuente2">Daño:</div>
+								<h6>Físico</h6>
+
+								<h6> <a href="#Inicio">Ir a inicio</a> </h6>
+
+							</div>
+						</div>
+					</div>
+				</section>
+				<br><br>
+
+				<section>
+
+					<div class="container-fluid">
+						<div class="fuente3">
+							<h3><a name="Kalista">EL ESPIRITU DE LA VENGANZA. KALISTA</a></h3>
+						</div>
+						<div class="row">
+							<div class="col-md-7">
+								<h6>
+
+									Kalista, un espectro de cólera y castigo, es el inmortal espíritu de la venganza,
+									una pesadilla acorazada que llega desde las Islas de la Sombra para dar caza a los
+									embusteros y los traidores. Puede que todos los que han sido traicionados pidan
+									venganza con lágrimas de sangre, pero Kalista solo responde a quienes están
+									dispuestos a ofrecer su alma a cambio. Aquellos que se convierten en el objetivo de
+									la ira de Kalista tienen que hacer las paces con sí mismos, porque cualquier pacto
+									sellado con la sombría cazadora solo puede terminar en las frías llamas de sus
+									lanzas espirituales.
+
+								</h6>
+
+								<div class="fuente2"> Dificultad:</div>
+								<h6> Moderada</h6>
+
+								<div class="fuente2">Rol:</div>
+								<h6>Tirador </h6>
+
+								<div class="fuente2">Daño:</div>
+								<h6>Físico</h6>
+
+								<h6> <a href="#Inicio">Ir a inicio</a> </h6>
+							</div>
+							<div class="col-md-5">
+								<img src="assets/Images/Kalista.jpg"
+									width="500" height="300" class="img-fluid" class="rounded float-end" alt="20">
+							</div>
+						</div>
+					</div>
+				</section>
+				<br><br>
+
+				<section>
+					<div class="container-fluid">
+						<div class="fuente3">
+							<h3><a name="Vayne">LA CAZADORA NOCTURNA. VAYNE</a></h3>
+						</div>
+						<div class="row">
+							<div class="col-md-5">
+								<img src="assets/Images/Vayne.jpg"
+									width="500" height="300" class="img-fluid" class="rounded float-start" alt="20">
+							</div>
+							<div class="col-md-7">
+								<h6>
+
+									Shauna Vayne es una mortal e implacable cazadora de monstruos demaciana que ha
+									dedicado su vida a encontrar y destruir al demonio que asesinó a su familia. Armada
+									con una ballesta que lleva montada en la muñeca y un corazón lleno de venganza, solo
+									es verdaderamente feliz cuando acaba con practicantes o creaciones de las artes
+									oscuras mientras ataca desde las sombras con una lluvia de proyectiles de plata.
+								</h6>
+
+								<div class="fuente2"> Dificultad:</div>
+								<h6> Alta </h6>
+
+								<div class="fuente2">Rol:</div>
+								<h6>Tirador </h6>
+
+								<div class="fuente2">Daño:</div>
+								<h6>Físico/Verdadero</h6>
+
+								<h6> <a href="#Inicio">Ir a inicio</a> </h6>
+							</div>
+						</div>
+					</div>
+				</section>
+				<br><br>
+
+			</div>
+		</div>
+	</div>
+
+
+	<!-- START Bootstrap-Cookie-Alert -->
+	<div class="alert text-center cookiealert" role="alert">
+		<b>¿Te gustan las galletas?</b> &#x1F36A; Utilizamos cookies para garantizar que obtenga la mejor experiencia en
+		nuestro sitio web. <a href="https://www.riotgames.com/es/privacy-notice-ES" target="_blank">Aviso de
+			privacidad</a>
+
+		<button type="button" class="btn btn-primary btn-sm acceptcookies">
+
+			Aceptar
+		</button>
+	</div>
+	<!-- END Bootstrap-Cookie-Alert -->
+
+	<!--Plugins-->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/gh/Wruczek/Bootstrap-Cookie-Alert@gh-pages/cookiealert.js"></script>
+	<!--END Plugins-->
+</body>
+
+</html>
